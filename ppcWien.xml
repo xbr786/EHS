@@ -1,0 +1,20 @@
+﻿<wap-provisioningdoc>
+<characteristic version="6.0" type="ConditionMgr">
+    <parm name="DataType" value="1" />
+    <characteristic type="BooleanDetails">
+      <parm name="BooleanSourceType" value="2" />
+      <parm name="BooleanSystemValue" value="2" />
+    </characteristic>
+    <parm name="ConditionMetAction" value="2" />
+    <parm name="ConditionNotMetAction" value="2" />
+    <parm name="ConditionRepeatCount" value="10" />
+    <parm name="ConditionRepeatInterval" value="1" />
+    <parm name="ConditionFailMessage" value="Testing" />
+    <parm name="SuppressMessage" value="1" />
+    <parm name="ConditionWaitMessage" value="" />
+</characteristic>
+  <characteristic version="8.0" type="com.zebra.ppcclientmgr">
+    <parm name="ServerURL" value="ppc.symbol.at:8080/ppcdata" />
+    <parm name="AllowEditing" value="1" />
+  </characteristic>
+</wap-provisioningdoc>
