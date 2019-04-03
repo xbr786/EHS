@@ -9,7 +9,7 @@
 </characteristic>
 <characteristic version="8.0" type="Intent">
     <parm name="Action" value="StartService" />
-    <parm name="ActionName" value="com.zebra.devicetracker.csp.DTCspService " />
+    <parm name="ActionName" value="com.zebra.devicetracker.csp.DTCspService" />
     <parm name="Package" value="com.zebra.devicetracker" />
 </characteristic>
 <characteristic version="8.0" type="com.zebra.devicetracker">
