@@ -1,0 +1,21 @@
+<wap-provisioningdoc>
+<characteristic version="8.0" type="AppMgr">
+    <parm name="Action" value="Install" />
+    <parm name="APK" value="/sdcard/DTRKClient.apk" />
+</characteristic>
+<characteristic version="8.0" type="AppMgr">
+    <parm name="Action" value="BatteryOptimization" />
+    <parm name="AddPackageNames" value="com.zebra.devicetracker" />
+</characteristic>
+<characteristic version="8.0" type="Intent">
+    <parm name="Action" value="StartService" />
+    <parm name="ActionName" value="com.zebra.devicetracker.csp.DTCspService " />
+    <parm name="Package" value="com.zebra.devicetracker" />
+</characteristic>
+<characteristic version="8.0" type="com.zebra.devicetracker">
+    <parm name="ServerURL" value="ppc.mzcs.nl:8080/zdvc/dtrk" />
+    <parm name="AllowEditing" value="1" />
+    <parm name="ServerAuthUserName" value="SEZebra" />
+    <parm name="ServerAuthPwd" value="&amp;#1270&amp;#127Au7zHw7rj67cS4cNrtioGszoahOhEsDMZGNdD0OdeF1rUOSI129QCkVQru8y20kokb2cIMO/Diyf4JxjlMFnaOu6zsZPhYg88EX3lqrrhReh2BR3Bl8WDBr52mtIq5i2jXFnMMgjFvaMs0uJo37fuNLumOewdKNLjIiE7/mpOezN+yMlk6Z0szh0B+hrfFxZ7+Xp7mkvnzMi59AFNGwQxP9K32zPN3K2H7nQrBTU+vAl/jI1upYaBMMHP9FaUejtTAi07K90pjKkCsDTA3N75DjbL1X0xWUWoVQGrZQs6k7FemIa6RhnyRsO6aR7WArPzL9zcueOD4jcGQfORF6qFw==" />
+  </characteristic>
+</wap-provisioningdoc>
