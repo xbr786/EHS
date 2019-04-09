@@ -1,0 +1,6 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="8.0" type="com.zebra.ppcclientmgr">
+    <parm name="ServerURL" value="ppc.mzcs.nl:8080/ppcdata" />
+    <parm name="AllowEditing" value="1" />
+  </characteristic>
+</wap-provisioningdoc>
