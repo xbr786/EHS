@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><config>
   <kiosk>
-    <link label="Herbert" url="https://xbr786.github.io" package="org.chromium.chrome" activity="com.google.android.apps.chrome.IntentDispatcher"/>
+    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
   </kiosk>
   <applications>
     <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
-    <link label="Herbert" url="https://xbr786.github.io" package="org.chromium.chrome" activity="com.google.android.apps.chrome.IntentDispatcher"/>
-	</applications>
+    <link label="github" url="https://xbr786.github.io" package="com.android.chrome" activity="com.google.android.apps.chrome.IntentDispatcher"/>
+    <link label="github" url="https://xbr786.github.io" package="org.chromium.chrome" activity="com.google.android.apps.chrome.IntentDispatcher"/>
+    <application label="Chrome" package="com.android.chrome" activity="com.google.android.apps.chrome.Main"/>
+  </applications>
   <tools>
-    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+    <application label="StageNow" package="com.symbol.tool.stagenow" activity="com.symbol.tool.stagenow.main.HomeScreen"/>
+	<application label="Settings" package="com.android.settings" activity="com.android.settings.Settings"/>
   </tools>
   <passwords>
     <admin attempts="1"/>
   </passwords>
   <user_options>
     <icon_settings>
-      <app_icon_size>XL</app_icon_size>
+      <app_icon_size>L</app_icon_size>
     </icon_settings>
   </user_options>
   <preferences>
     <orientation>portrait</orientation>
-	<wallpaper></wallpaper>
+    <wallpaper/>
     <usb_debugging_disabled>0</usb_debugging_disabled>
     <icon_label_text_color>#FFFFFFFF</icon_label_text_color>
     <auto_launch_enable>0</auto_launch_enable>
@@ -31,9 +34,11 @@
     <keyguard_camera_disabled>1</keyguard_camera_disabled>
     <kiosk_mode_enabled>0</kiosk_mode_enabled>
     <title>
-      <value>[serial_number]</value>
+      <value>[serial_number]#32;xbr786</value>
     </title>
-	<apps_disabled>
-    </apps_disabled>
+    <apps_enabled>
+      <application package="com.android.settings"/>
+      <application package="com.google.android.googlequicksearchbox"/>
+    </apps_enabled>
   </preferences>
 </config>
