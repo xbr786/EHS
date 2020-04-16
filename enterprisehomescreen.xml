@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <kiosk>
+    <link label="Herbert" url="https://xbr786.github.io" package="org.chromium.chrome" activity="com.google.android.apps.chrome.IntentDispatcher"/>
+  </kiosk>
+  <applications>
+    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+    <link label="Herbert" url="https://xbr786.github.io" package="org.chromium.chrome" activity="com.google.android.apps.chrome.IntentDispatcher"/>
+	</applications>
+  <tools>
+    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+  </tools>
+  <passwords>
+    <admin attempts="1"/>
+  </passwords>
+  <user_options>
+    <icon_settings>
+      <app_icon_size>XL</app_icon_size>
+    </icon_settings>
+  </user_options>
+  <preferences>
+    <orientation>portrait</orientation>
+	<wallpaper></wallpaper>
+    <usb_debugging_disabled>0</usb_debugging_disabled>
+    <icon_label_text_color>#FFFFFFFF</icon_label_text_color>
+    <auto_launch_enable>0</auto_launch_enable>
+    <service_auto_launch_enable>0</service_auto_launch_enable>
+    <keyguard_search_disabled>1</keyguard_search_disabled>
+    <system_settings_restricted>0</system_settings_restricted>
+    <icon_label_background_color>#00FFFFFF</icon_label_background_color>
+    <fullscreen>0</fullscreen>
+    <keyguard_camera_disabled>1</keyguard_camera_disabled>
+    <kiosk_mode_enabled>0</kiosk_mode_enabled>
+    <title>
+      <value>[serial_number]</value>
+    </title>
+	<apps_disabled>
+    </apps_disabled>
+  </preferences>
+</config>
